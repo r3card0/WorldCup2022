@@ -16,13 +16,19 @@ def copy_df():
     df_copy = read_file().copy(deep=True)
     return df_copy
 
+
+def hello():
+    message="Hello there!"
+    return message
+
 def cup_data():
     cup = {
 
     }
 
 def run():
-    print(copy_df())
+    # print(copy_df())
+    print(hello())
 
 
 if __name__ == "__main__":
