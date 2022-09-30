@@ -12,7 +12,9 @@ def read_file():
     df_read = pd.read_excel('firstdata.xlsx')
     return df_read
 
-
+def copy_df():
+    df_copy = read_file().copy(deep=True)
+    return df_copy
 
 def cup_data():
     cup = {
@@ -20,7 +22,7 @@ def cup_data():
     }
 
 def run():
-    pass
+    print(copy_df())
 
 
 if __name__ == "__main__":
