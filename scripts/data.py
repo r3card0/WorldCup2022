@@ -8,6 +8,10 @@ def description():
     """
     return program_description
 
+def read_file():
+    df_read = pd.read_excel('firstdata.xlsx')
+    return df_read
+
 
 
 def cup_data():
