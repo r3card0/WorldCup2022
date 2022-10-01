@@ -1,5 +1,4 @@
 import mysql.connector as conn
-import pandas as pd
 from config import config
 
 # connection
