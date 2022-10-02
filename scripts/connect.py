@@ -11,8 +11,13 @@ def connectdb():
 connection = connectdb()
 
 def close_connection():
+    message1='Connection closed'
+    message2='Still connected'
     close_ = connection.close()
-    return close_
+    if close_ == None:
+        return message1
+    else:
+        return message2
 
 def run():
     print(connection)
