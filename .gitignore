@@ -1,3 +1,6 @@
 firstdata.xlsx
 scripts/config.py
 scripts/read_data.py
+.DS_Store
+scripts/__pycache__/
+db/insert_teams.sql
