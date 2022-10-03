@@ -4,3 +4,8 @@ scripts/read_data.py
 .DS_Store
 scripts/__pycache__/
 db/insert_teams.sql
+df1.csv
+scripts/Untitled.ipynb
+scripts/read_csv.py
+scripts/insert_groups_pos.py
+scripts/.ipynb_checkpoints
