@@ -1,10 +1,12 @@
 db/manipulation/config.py
 db/manipulation/venv_qatar/
+db/manipulation/_read_files.py
+db/manipulation/__pycache__/
+Doc/
+scripts/
 
 .DS_Store
 
 db/insert_teams.sql
 df1.csv
 
-Doc/
-scripts/
