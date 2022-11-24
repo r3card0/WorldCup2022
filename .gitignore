@@ -1,9 +1,10 @@
-db/manipulation/config.py
-db/manipulation/venv_qatar/
-db/manipulation/_read_files.py
-db/manipulation/__pycache__/
+scripts/config.py
+scripts/venv_qatar/
+scripts/_read_files.py
+scripts/__pycache__/
 Doc/
-scripts/
+
+scripts/data.py
 
 .DS_Store
 
