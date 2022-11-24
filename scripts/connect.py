@@ -10,6 +10,15 @@ def connectdb():
 
 connection = connectdb()
 
+def make_cursor():
+    cursor = connection.cursor()
+    return cursor
+
+
+def closing():
+    close = connection.close()
+    return close
+
 def close_connection():
     message1='Connection closed'
     message2='Still connected'
