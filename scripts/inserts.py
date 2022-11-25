@@ -4,5 +4,5 @@ def insert_matches():
 
 
 def insert_scores():
-    insert_ = "INSERT INTO qtar.scores(matchId,teamId,minute) VALUES(%s,%s,%s)"
+    insert_ = "INSERT INTO qtar.scores(matchId,teamId,goal) VALUES(%s,%s,%s)"
     return insert_
