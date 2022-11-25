@@ -16,7 +16,7 @@ df = get_scores()
 insert_ = insert_scores()
 
 def by_row():
-    df['data'] = df[['matchId','teamId','minute']].values.tolist()
+    df['data'] = df[['matchId','teamId','goal']].values.tolist()
     rows = list(df['data'])
     return rows
 
