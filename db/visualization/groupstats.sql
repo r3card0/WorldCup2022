@@ -48,5 +48,5 @@ SELECT
 , D
 , G
 FROM base
-ORDER BY 1,3 desc
+ORDER BY 1,4 desc
 ;
