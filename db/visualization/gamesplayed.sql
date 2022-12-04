@@ -1,11 +1,13 @@
 -- games played ---
-select g.`group`,
+select m.phase
+,g.`group`,
 t.team_name `team`
-,count(s.teamId) `GP` -- games played
+,count(s.teamId) `GP` -- Games Played
 from qtar.scores s
-JOIN soccer.teams t ON t.team_id = s.teamId
+JOIN qtar.teams t ON t.team_id = s.teamId
 JOIN qtar.`groups`g ON g.teamId = t.team_id
-GROUP BY 1,2
+JOIN qtar.matches m ON m.matchId = s.matchId
+GROUP BY 1,2,3
 ORDER BY 1
 ;
 
