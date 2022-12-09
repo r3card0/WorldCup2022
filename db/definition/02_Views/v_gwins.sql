@@ -1,3 +1,6 @@
+/*
+View to visualize the winners teams
+*/
 CREATE VIEW vgwins AS
 (
 SELECT 
