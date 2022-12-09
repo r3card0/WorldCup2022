@@ -1,3 +1,6 @@
+/*
+Table to store the number of attendances in a match
+*/
 CREATE TABLE IF NOT EXISTS attendances
 (
     attendanceId INTEGER NOT NULL AUTO_INCREMENT
