@@ -1,3 +1,6 @@
+/*
+View to visualize games played
+*/
 CREATE VIEW qtar.vgplayed AS
 (
     select g.`group`,
