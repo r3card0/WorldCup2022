@@ -1,3 +1,6 @@
+/*
+View to visualize the ties teams
+*/
 CREATE VIEW vgdraws AS
 (
    SELECT
