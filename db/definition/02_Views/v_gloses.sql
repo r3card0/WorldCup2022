@@ -1,3 +1,6 @@
+/*
+View to visualize losers teams
+*/
 CREATE VIEW vgloses AS
 (
     SELECT 
