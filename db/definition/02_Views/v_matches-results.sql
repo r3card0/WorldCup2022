@@ -1,3 +1,6 @@
+/*
+View to visualize the results of the matches
+*/
 CREATE VIEW vmatchesresults as
 (
 SELECT DISTINCT m.matchNo `match`,
