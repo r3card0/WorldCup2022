@@ -1,3 +1,6 @@
+/*
+View to visualize goals by tema
+*/
 CREATE VIEW vgoalsbyteam as
 (
     SELECT
