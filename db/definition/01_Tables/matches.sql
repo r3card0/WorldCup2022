@@ -1,3 +1,6 @@
+/*
+Table to stores the matches
+*/
 CREATE TABLE IF NOT EXISTS matches
 (
     matchId INTEGER NOT NULL AUTO_INCREMENT
