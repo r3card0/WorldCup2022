@@ -1,3 +1,7 @@
+/*
+Table to store the players
+*/
+
 CREATE TABLE IF NOT EXISTS players
 (
     playerId INTEGER NOT NULL AUTO_INCREMENT
