@@ -2,7 +2,7 @@
 
 ## Objective
 * This project is to store data from Qatar soccer ⚽️ cup 🏆 of 2022
-* The data is stored in a Mysql database
+* Mysql is implemented as database management system
 * Python is used to read data and load it into the data model
 * Once the data is ready, will come the analysis process
 
