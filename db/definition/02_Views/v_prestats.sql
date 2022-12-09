@@ -1,3 +1,6 @@
+/*
+View to visualize a winners, losers and ties teams
+*/
 CREATE VIEW vprestats as
 (
     SELECT phase,
