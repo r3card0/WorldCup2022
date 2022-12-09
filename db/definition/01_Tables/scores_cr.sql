@@ -1,3 +1,6 @@
+/*
+Table to store scores of the matches
+*/
 CREATE TABLE IF NOT EXISTS scores
 (
     scoreId INTEGER NOT NULL AUTO_INCREMENT
