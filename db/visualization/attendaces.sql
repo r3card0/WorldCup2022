@@ -1,6 +1,6 @@
 SELECT
 m.matchNo, a.attendance
-, concat(lt.team_name,' vs ',  vt.team_name) as `mathc`
+, concat(lt.team_name,' vs ',  vt.team_name) as `match`
 FROM attendances a
 JOIN matches m ON m.matchId = a.matchId
 JOIN teams lt ON lt.team_id = m.localTeamId 
