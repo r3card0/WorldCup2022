@@ -20,3 +20,6 @@ def insert_actions():
     return insert_
 
 
+def insert_details():
+    insert_ = "INSERT INTO qtar.matchdetails(matchId,half,minute,actionId,playerId) VALUES (%s,%s,%s,%s,%s)"
+    return insert_
