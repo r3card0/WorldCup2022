@@ -14,3 +14,9 @@ def insert_players():
 def insert_attendances():
     insert_ = "INSERT INTO qtar.attendances(matchId,attendance) VALUES (%s,%s)"
     return insert_
+
+def insert_actions():
+    insert_ = "INSERT INTO qtar.actions(action) VALUES (%s)"
+    return insert_
+
+
